@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[StaticWeb]]></title>
+  <link href="http://zh.mweb.im/atom.xml" rel="self"/>
+  <link href="http://zh.mweb.im/"/>
+  <updated>2019-07-04T18:42:17+08:00</updated>
+  <id>http://zh.mweb.im/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://www.mweb.im/">MWeb</generator>
+  
+  <entry>
+    <title type="html"><![CDATA[Elasticsearch]]></title>
+    <link href="http://zh.mweb.im/15607657637878.html"/>
+    <updated>2019-06-17T18:02:43+08:00</updated>
+    <id>http://zh.mweb.im/15607657637878.html</id>
+    <content type="html"><![CDATA[
+<p>11111</p>
+
+<h3 id="toc_0">MyCat 数据库中间件</h3>
+
+<p>2222</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[代码生成器]]></title>
+    <link href="http://zh.mweb.im/codecreate.html"/>
+    <updated>2019-06-11T18:09:42+08:00</updated>
+    <id>http://zh.mweb.im/codecreate.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>Mapper</li>
+<li>实体</li>
+<li>数据库表名</li>
+</ul>
+
+<span id="more"></span><!-- more -->
+
+<h3 id="toc_0">Elasticsearch分布式搜索引擎（简称ES）</h3>
+
+<ul>
+<li>简介
+<ul>
+<li>Lucene
+<ul>
+<li>搜索引擎库，功能强大，接入复杂</li>
+</ul></li>
+<li>Solr
+<ul>
+<li>基于Lucene的搜索引擎服务器 </li>
+</ul></li>
+<li>Elasticsearch
+<ul>
+<li>基于Lucene的搜索引擎服务器，分布式 </li>
+</ul></li>
+</ul></li>
+<li>功能
+<ul>
+<li>索引</li>
+<li>文档</li>
+<li>映射</li>
+<li>搜索</li>
+<li>聚合</li>
+<li>其它</li>
+</ul></li>
+<li><p>集群规则</p></li>
+<li><p>Kibana工具</p></li>
+<li><p>painless脚本 </p></li>
+<li><p>js脚本</p></li>
+<li><p>python脚本</p></li>
+<li><p>分词器</p>
+<ul>
+<li>analyzer</li>
+<li>IK分词器
+<ul>
+<li>ik_max_word</li>
+<li>ik_smart[推荐]</li>
+<li>ik_syno</li>
+</ul></li>
+</ul></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Docker]]></title>
+    <link href="http://zh.mweb.im/docker.html"/>
+    <updated>2019-06-10T18:13:07+08:00</updated>
+    <id>http://zh.mweb.im/docker.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>相关概念</li>
+<li>安装</li>
+<li>镜像
+<ul>
+<li>docker images</li>
+<li>docker pull</li>
+<li>docker rmi</li>
+</ul></li>
+<li>容器</li>
+<li>可视化容器
+<ul>
+<li>portainer</li>
+<li>shipyard</li>
+<li>dockerui</li>
+</ul></li>
+<li>容器备份
+<ul>
+<li>提交容器为镜像</li>
+<li>通过Dockerfile生成镜像
+<ul>
+<li>生成镜像 docker build -t tomcatnew .</li>
+<li> Dockerfile语法命令
+<ul>
+<li>FORM</li>
+<li>maintainer</li>
+<li>env</li>
+<li>run</li>
+<li>copy</li>
+<li>add</li>
+<li>ENTRYPOINT</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>docker compose</li>
+<li>docker swarm</li>
+<li>k8s</li>
+</ul>
+
+<span id="more"></span><!-- more -->
+
+<ul>
+<li>docker 命令
+<ul>
+<li>docker ps</li>
+<li>docker ps -a</li>
+<li>docker images|grep<br/></li>
+<li>docker run -d --name kgc-tomcat -p 8080:8080 tomcat</li>
+<li>docker stop</li>
+<li>docker start</li>
+<li>docker rm</li>
+<li>docker inspect kgc-tomcat</li>
+<li>docker stat kgc-tomcat</li>
+<li>docker exec -it kgc-tomcat /bin/bash</li>
+<li>exit</li>
+<li>docker cp kgc.html kgc-tomcat:/usr/local/tomcat/webapps</li>
+<li>docker volume ls</li>
+<li>docker volume inspect portainer_volume</li>
+</ul></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://zh.mweb.im/test.html"/>
+    <updated>2019-06-03T19:24:29+08:00</updated>
+    <id>http://zh.mweb.im/test.html</id>
+    <content type="html"><![CDATA[
+<ul>
+<li>
+<a href="#toc_0">图片test</a>
+</li>
+<li>
+<a href="#toc_1">微服务架构之Spring Cloud 全家桶</a>
+<ul>
+<li>
+<a href="#toc_2">目录</a>
+</li>
+<li>
+<a href="#toc_3">Eureka简介</a>
+</li>
+<li>
+<a href="#toc_4">Feign简介</a>
+</li>
+<li>
+<a href="#toc_5">五大信息</a>
+</li>
+<li>
+<a href="#toc_6">Sleuth 服务跟踪</a>
+</li>
+<li>
+<a href="#toc_7">CAP原则</a>
+</li>
+<li>
+<a href="#toc_8">Spring Cloud Gateway</a>
+</li>
+<li>
+<a href="#toc_9">spring boot admin 辅助服务监测</a>
+</li>
+<li>
+<a href="#toc_10">Prometheus 普罗米修斯</a>
+</li>
+<li>
+<a href="#toc_11">Grafana</a>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<span id="more"></span><!-- more -->
+
+<h3 id="toc_0">图片test</h3>
+
+<p><img src="media/15595610690075/icon.jpg" alt="icon"/></p>
+
+<h3 id="toc_1">微服务架构之Spring Cloud 全家桶</h3>
+
+<p>讲师：孙正哲</p>
+
+<ul>
+<li>分布式框架
+<ul>
+<li>Eureka [服务注册]</li>
+<li>Feign [服务调用]</li>
+<li>Hystrix [容错处理]</li>
+<li>Ribbon [负载均衡]</li>
+<li>Zuul [网关]</li>
+<li>Config [远程配置]</li>
+<li>Sleuth</li>
+<li>...</li>
+</ul></li>
+</ul>
+
+<h4 id="toc_2">目录</h4>
+
+<ol>
+<li>Spring Cloud体系</li>
+<li>Eureka实现服务注册</li>
+<li>Feign实现服务调用</li>
+<li>Hystrix实现容错处理</li>
+</ol>
+
+<h4 id="toc_3">Eureka简介</h4>
+
+<ul>
+<li>Eureka Server [注册中心]</li>
+<li>Eureka Client
+<ul>
+<li>Provider [生产者]</li>
+<li>Consumer [消费者]</li>
+</ul></li>
+</ul>
+
+<h4 id="toc_4">Feign简介</h4>
+
+<ul>
+<li>HTTP客户端</li>
+<li>声明式、模块化</li>
+</ul>
+
+<h4 id="toc_5">五大信息</h4>
+
+<ul>
+<li>uri：git地址</li>
+<li>分支</li>
+<li>目录</li>
+<li>文件名</li>
+<li>application1 项目名 环境</li>
+</ul>
+
+<h4 id="toc_6">Sleuth 服务跟踪</h4>
+
+<p>Consul<br/>
+Nacos 阿里开源<br/>
+zookipper</p>
+
+<h4 id="toc_7">CAP原则</h4>
+
+<ul>
+<li>Consistency 一致性</li>
+<li>Availability 可用性</li>
+<li>Partition tolerance 分区容错性</li>
+</ul>
+
+<p>一致性和可用性是矛盾的</p>
+
+<h4 id="toc_8">Spring Cloud Gateway</h4>
+
+<p>Spring Cloud官方推出的第二代网关框架<br/>
+相比Zuul1.x整体性能提升</p>
+
+<h4 id="toc_9">spring boot admin 辅助服务监测</h4>
+
+<h4 id="toc_10">Prometheus 普罗米修斯</h4>
+
+<h4 id="toc_11">Grafana</h4>
+
+<p>Prometheus 和 Grafana配置进行监控</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[123123]]></title>
+    <link href="http://zh.mweb.im/123123.html"/>
+    <updated>2019-05-04T13:29:22+08:00</updated>
+    <id>http://zh.mweb.im/123123.html</id>
+    <content type="html"><![CDATA[
+<table>
+<thead>
+<tr>
+<th style="text-align: center">12311312</th>
+<th style="text-align: center">11</th>
+<th style="text-align: right">111</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td style="text-align: center">11</td>
+<td style="text-align: center">1123123</td>
+<td style="text-align: right">112312</td>
+</tr>
+<tr>
+<td style="text-align: center">11</td>
+<td style="text-align: center">11123</td>
+<td style="text-align: right">1123</td>
+</tr>
+<tr>
+<td style="text-align: center">121</td>
+<td style="text-align: center">1123</td>
+<td style="text-align: right">11312</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th>31</th>
+<th style="text-align: center">lll112</th>
+<th style="text-align: right">1122</th>
+<th style="text-align: right"></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1212321</td>
+<td style="text-align: center">1123</td>
+<td style="text-align: right">2123</td>
+<td style="text-align: right"></td>
+</tr>
+</tbody>
+</table>
+
+<p>131232</p>
+
+<p><img src="media/15569477625193/IMG_4.jpg" alt="IMG_4"/></p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[欢迎使用 MWeb]]></title>
+    <link href="http://zh.mweb.im/MWeb.html"/>
+    <updated>2019-05-04T13:28:08+08:00</updated>
+    <id>http://zh.mweb.im/MWeb.html</id>
+    <content type="html"><![CDATA[
+<p>MWeb 是专业的 Markdown 写作、记笔记、静态博客生成软件，目前已支持 Mac，iPad 和 iPhone。MWeb 有以下特色：</p>
+
+<span id="more"></span><!-- more -->
+
+<h2 id="toc_0">软件本身：</h2>
+
+<ul>
+<li>使用原生的 macOS 技术打造，追求与系统的完美结合。</li>
+<li>原则上，首先是追求界面简洁和高性能，然后才是强大易用，功能全面。</li>
+</ul>
+
+<h2 id="toc_1">Markdown 语法：</h2>
+
+<ul>
+<li>使用 Github Flavored Markdown 语法，简称 GFM 语法。</li>
+<li>支持表格、TOC、LaTeX、代码块、任务列表、脚注等。</li>
+<li>画图库支持 mermaid, viz, echarts, plantuml, sequence, flow。</li>
+</ul>
+
+<h2 id="toc_2">Markdown 辅助：</h2>
+
+<ul>
+<li>支持截图并粘贴、复制并粘贴、拖拽等方式插入图片并直接显示在编辑器内。</li>
+<li>在兼容 Markdown 语法的情况下支持设置图片宽度。</li>
+<li>好用的表格插入和 LaTeX 书写辅助。</li>
+</ul>
+
+<h2 id="toc_3">Markdown 输出：</h2>
+
+<ul>
+<li>支持导出为图片、HTML、Epub、PDF、RTF、Docx。</li>
+<li>支持发布到 Wordrpess、支持 Metaweblog API 协议的服务、Wordpress.com、印象笔记（Evernote）、Blogger、Medium、Tumblr。</li>
+<li>图片上传服务（图床）支持 Google Photos、Imgur、七牛云、又拍云和自定义的图床服务。</li>
+</ul>
+
+<h2 id="toc_4">Markdown 笔记：</h2>
+
+<ul>
+<li>强大的文档库支持分类树和标签管理文档，文档可归类于多个分类，可以把分类整个导出为 Epub、PDF 和生成静态网站。非常合适用于笔记、个人知识收集、管理和输出。</li>
+<li>快速笔记：随意增加笔记及图片等素材，支持以天为单位把增加的素材组合在一个文档内，方便整理及记录历史收集情况。</li>
+<li>快速搜索：目前已支持全局快捷键调出搜索。</li>
+</ul>
+
+<h2 id="toc_5">外部 Markdown 文档：</h2>
+
+<ul>
+<li>外部 Markdown 文档使用外部模式管理。外部模式使用目录树的方式编辑和管理你的 markdown 文档，还能很好的支持 gitbook、JekyII、hexo 等等编辑和图片插入。</li>
+</ul>
+
+<h2 id="toc_6">MWeb 文档：</h2>
+
+<p>如果要更详细了解 MWeb，建议你一定要去看一下官网的帮助文档，网址为：<a href="https://zh.mweb.im/help.html">https://zh.mweb.im/help.html</a>。我们建议在使用文档库之前，一定要阅读一下  <a href="https://zh.mweb.im/mweb-library.html">MWeb 文档库详细介绍</a> 这篇文章，以便更好的使用文档库。</p>
+
+<h2 id="toc_7">帮助我们改进 MWeb</h2>
+
+<p>如果你喜欢 MWeb，想让它变得更好，你可以：</p>
+
+<ol>
+<li>推荐 MWeb，让更多的人知道。</li>
+<li>给我们发反馈和建议：<a href="mailto:coderforart+2333@gmail.com">coderforart+2333@gmail.com</a></li>
+<li>在 Mac App Store 上评价 （如果是在 MAS 上购买的话）。</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
